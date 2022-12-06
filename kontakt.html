@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="pozadinatri">
+      <nav class="navbar">
+          <span class="open-slide">
+              <a href="#" onclick="openSlideMenu()">
+                  <svg width="30" height="30">
+                     <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                     <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                     <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                  </svg>
+              </a>
+         </span>
+   
+         <ul class="navbar-nav">
+             <li><a href="index.html">O nama</a></li>
+             <li><a href="usluge.html">Usluge</a></li>
+             <li><a href="kontakt.html">Kontakt</a></li>
+         </ul>
+      </nav>
+      <div id="side-menu" class="side-nav">
+         <a href="#" class="btn-close" onclick="closesSlideMenu()">&times;</a>
+         <a href="index.html">O nama</a>
+         <a href="usluge.html">Usluge</a>
+         <a href="kontakt.html">Kontakt</a>
+      </div>
+   
+      <script>
+         function openSlideMenu(){
+             document.getElementById('side-menu').style.width = '250px';
+             document.getElementById('main').style.marginLeft = '250px';
+           }
+   
+         function closesSlideMenu(){
+             document.getElementById('side-menu').style.width = '0px';
+             document.getElementById('main').style.marginLeft = '0px';
+           }
+      </script>
+      <div id="main">
+         <h1>Frizerski salon Grazia</h1> 
+      </div>
+      
+      <div class="contact-in">
+         <div class="mapa">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.2903877884714!2d19.822856079849213!3d45.24192037920127!2m3!1f0!2f0!3f0!3m
+             2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b103b568d7da9%3A0xd753a83b1729244d!2z0KbQsNGA0LAg0JTRg9GI0LDQvdCwIDY4LCDQndC-0LLQuCDQodCw0LQ!5e0!3m2!1ssr!2s
+             rs!4v1670202151266!5m2!1ssr!2srs" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+         <div class="contact-form">
+             <h2>Kontaktirajte nas</h2>
+             <form>
+                 <input type="text" placeholder="Name" class="contact-form-txt"/>
+                 <input type="text" placeholder="Email" class="contact-form-txt"/>
+                 <textarea placeholder="Massage" class="contact-form-textarea"></textarea>
+                 <input type="submit" name="Submit" value="Pošalji" class="contact-form-btn"/>
+             </form>
+         </div>
+     </div>
+     <div class="sadrzaj">
+          <h2>Kontakt podaci:</h2><br>
+          <ul class="ikone">
+             <li><a href="#"><ion-icon name="location-outline"></ion-icon></a></li><p>Cara Dušana 68 Novi Sad</p><br>
+             <li><a href="#"><ion-icon name="call-outline"></ion-icon></a></li><p>0611536742</p><br>
+          </ul>
+      </div>
+     <footer>
+        <div class="footer-sadrzaj">
+            <h3>Grazia</h3>
+             <p>Zapratite nas!</p>
+             <ul class="socials">
+                 <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                 <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+           <p>Copyright & 2022 EV. All Rights Reserved</p>
+        </div>
+     </footer>
+ </div>
+    
+</body>
+</html>
+

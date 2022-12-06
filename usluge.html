@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usluge</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+ <div class="pozadinadva">
+     <nav class="navbar">
+         <span class="open-slide">
+             <a href="#" onclick="openSlideMenu()">
+                 <svg width="30" height="30">
+                     <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                     <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                     <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                 </svg>
+             </a>
+         </span>
+
+         <ul class="navbar-nav">
+             <li><a href="index.html">O nama</a></li>
+             <li><a href="usluge.html">Usluge</a></li>
+             <li><a href="kontakt.html">Kontakt</a></li>
+         </ul>
+     </nav>
+     <div id="side-menu" class="side-nav">
+         <a href="#" class="btn-close" onclick="closesSlideMenu()">&times;</a>
+         <a href="index.html">O nama</a>
+         <a href="usluge.html">Usluge</a>
+         <a href="kontakt.html">Kontakt</a>
+     </div>
+
+     <script>
+          function openSlideMenu(){
+             document.getElementById('side-menu').style.width = '250px';
+             document.getElementById('main').style.marginLeft = '250px';
+          }
+
+          function closesSlideMenu(){
+             document.getElementById('side-menu').style.width = '0px';
+             document.getElementById('main').style.marginLeft = '0px';
+          }
+     </script>
+
+      <div id="main">
+         <h1>Frizerski salon Grazia</h1> 
+      </div>  
+      <div class="box">
+         <div class="kartica">
+             <img src="slike/makaze1.jpg">
+             <h3>ŠIŠANJE</h3>
+             <p><b>Profesionalni frizeri sa iskustvima će ti pomoći da odabereš frizuru koja najbolje odgovara tvojoj estetici i stilu.<br>
+              Vršimo usluge ženskog, muškog i dečijeg šišanja. Znamo da je veoma teško naći dobrog frizera i zato smo rešili da taj izbor napravimo upravo mi.<br>
+             Zato posetite frizerski salon Grazia!</b></p> 
+         </div> 
+         <div class="kartica">
+             <img src="slike/alat.jpg">
+             <h3>FENIRANJE</h3>
+             <p><b>Pravilno feniranje kose učiniće da vaša frizura zaista zablista, dobije pun volumen i stoji baš onako kako želite.<br>
+             Bez obzira da li želite da vaša kosa bude fenirana na ravno, talasasto ili na spirale, a vaša frizura otporna na vremenske uslove, frizerski salon Grazia je prava adresa za Vas.</b></p>  
+          </div>
+          <div class="kartica">
+             <img src="slike/alat3.jpg">
+             <h3>KOLOR</h3>
+             <p><b>U našem frizerskom salonu se farbanju pristupa veoma ozbiljno- upotrebom vrhunskih farbi za kosu, 
+              a u saradnji sa klijentima i njihovim željama<br> farbanje kose se radi na stručan način i sa planiranjem na duži rok.
+              Tako da se dobijen ton može dugo održavati i obnavljati bez straha da će kosa biti izložena prevelikom stresu.</b></p>  
+          </div>
+          <div class="kartica">
+             <img src="slike/alat3.jpg">
+             <h3>PRAMENOVI</h3>
+             <p><b>Pramenovi će osvežiti vaš ten i istaći lepotu lica, žene ih obično obožavaju u letnnjim mesecima.<br>
+             Počinju kao deblji i svetliji pramenovi kose blizu lica,<br> a granaju se u tanje, nešto tamnije ka temenu.<br>Toplo se preporučuju kada ste neodlučni i niste sigurni kako će Vam svetla boja kose pristajati.</b></p>  
+         </div> 
+         <div class="kartica">
+             <img src="slike/alat3.jpg">
+             <h3>PRELIV KOSE</h3>
+             <p><b>Farbanje je veoma zahvalno kada koristite dobre preparate, dok preliv može samo da koriguje eventualne nepravilnosti.<br>
+              Preliv služi da osveži i obnovi boju između farbanja. Preliv kod plavih nijansi služi za ubijanje neželjenih tonova i u tu svrhu se koriste pepeljaste, biserne i violet nijanse.
+              </b></p>  
+         </div>
+         <div class="kartica">
+             <img src="slike/minival.jpg">
+             <h3>MINI VAL</h3>
+             <p><b>Moderni mini val je veoma raznovrstan i broj varijacija je neograničen.<br>Ovo daje veliku širinu za formiranje različitih frizura,<br> pri čemu je opušten i ženstven izgled
+             najveća prednost ovog tretmana. Mini valom možete da postignete više modernih stilova kao što je messy hair ili možete da postignete samo efekat čupave kose.
+             </b></p>  
+         </div>
+         <div class="kartica">
+             <img src="slike/keratinikona.jpg">
+             <h3>KERATIN</h3>
+             <p><b>Brazilski keratin, tretman za oštećenu kosu je najnapredniji, najbrži i najefikasniji način da se Vaša oštećena kosa oporavi i da joj se vrati njen prirodan izgled.
+              Ovo je revolucionarni tretman koji koristi kombinaciju keratina kako bi oporavio oštećenu kosu zamenjujući njen prirodni keratin izgubljen tokom feniranja, farbanja i ostalih hemijskih procesa.   <br></b></p>  
+         </div>
+         <div class="kartica">
+             <img src="slike/tretman.jpg">
+             <h3>TRETMANI KOSE</h3>
+             <p><b>Negovanje kose je osnovni uslov za zdravu i lepu kosu- danas kada je najveći broj kosa hemijski tretiran.<br>
+             Negovanje kose je neophodno apsolutno svakoj kosi, čak i kose koje nisu hemijski tretirane traže negu.
+             Što je kosa duža treba joj sve više nege- pojačana nega je potrebna i ako ste rešili da puštate kosu.
+             </b></p>  
+         </div>   
+      </div>
+ </div>
+    
+    
+</body>
+</html
